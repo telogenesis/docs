@@ -1,0 +1,45 @@
+---
+title: Introduction
+description: Welcome to the documentation
+---
+
+# Introduction
+
+Telogenesis gives you AI employees that plug into the way your team already works - chatting in the dashboard, sending email, and replying to text messages. Use these docs to get an assistant online quickly, connect your communication channels, and keep everyone aligned.
+
+## Quickstart
+
+1. Sign in to the dashboard
+   Visit https://dashboard.telogenesis.ai (or http://localhost:3001 during development) and complete the Auth0 sign-in flow. Your first login automatically provisions a personal organization and selects it in the header.
+2. Review organization settings
+   Open `Settings -> Organization` to rename the workspace, choose the default timezone, and copy the organization ID if you plan to work with the API.
+3. Create your first employee
+   Go to `Employees` and click `Create Employee`. Give the assistant a name, adjust the personality and guidance fields, pick a model, and decide which tool categories (email, sms, scheduling, web search, and more) it can use. Save to deploy the employee.
+4. Connect communication channels
+   - Email: From `Email`, click **Connect account**, follow the secure OAuth flow (powered by Nylas), and then assign the mailbox to one or more employees using the dropdown next to the connected account.
+   - SMS: Check `Numbers` to see the Telnyx numbers assigned to your organization. Reach out to support@telogenesis.ai if you need additional or region-specific numbers, then assign them to the right employee from the employee detail view.
+   - Chat: No setup required - every employee is instantly available in the in-app chat experience.
+5. Start collaborating
+   Open `Chat`, pick your new employee, and send a message. You can also message the employee over any connected email inbox or SMS number - conversations stay synchronized in the dashboard so you can monitor progress and follow up.
+
+## Communication
+
+AI employees can carry a single conversation across web chat, SMS, and email. Configure the channels you need and use the dashboard to see every interaction in one place.
+
+### Web Chat
+
+- Launch two-way conversations from the `Chat` tab, choose the employee you want to work with, and watch replies stream in real time.
+- Chats, system thoughts, and attachments are stored automatically - open any transcript later from the chat list or the employee detail view.
+- Use chat to test new guidance or hand off tasks before pushing work to external channels.
+
+### SMS
+
+- Telogenesis provisions SMS-capable Telnyx numbers for each organization. Find them in `Numbers`, and confirm the right employee owns the line from the employee page.
+- Team members should add their personal phone number and opt in to SMS under `User Settings` before you text them from an employee.
+- Incoming texts appear in the employee's SMS conversation list, and replies are sent from the same number so contacts experience a seamless thread.
+
+### Email
+
+- Connect shared or individual inboxes through the `Email` page. The OAuth flow supports Google accounts today, with Microsoft support in private preview.
+- After a mailbox is connected, use the assignment dropdown to grant specific employees access. They will read and send mail using that address, following the guidance you configure.
+- Email threads stay synchronized with the dashboard, letting you audit messages, pause replies, or reassign ownership without leaving the app.

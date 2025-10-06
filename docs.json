@@ -1,0 +1,30 @@
+{
+  "name": "Documentation",
+  "theme": "mint",
+  "colors": {
+    "primary": "#805AD5",
+    "light": "#07C983",
+    "dark": "#805AD5"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Docs",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": ["introduction"]
+          },
+          {
+            "group": "Communication",
+            "pages": ["sms", "email", "web-chat"]
+          },
+          {
+            "group": "Support",
+            "pages": ["support"]
+          }
+        ]
+      }
+    ]
+  }
+}
