@@ -3,7 +3,7 @@
   "theme": "mint",
   "colors": {
     "primary": "#805AD5",
-    "light": "#07C983",
+    "light": "#805AD5",
     "dark": "#805AD5"
   },
   "navigation": {
