@@ -6,6 +6,7 @@
     "light": "#805AD5",
     "dark": "#805AD5"
   },
+  "favicon": "favicon.ico",
   "navigation": {
     "tabs": [
       {
