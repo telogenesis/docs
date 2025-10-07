@@ -18,7 +18,11 @@
           },
           {
             "group": "Communication",
-            "pages": ["sms", "email", "web-chat"]
+            "pages": ["web-chat", "sms", "email"]
+          },
+          {
+            "group": "Calendars",
+            "pages": ["google-calendar"]
           },
           {
             "group": "Support",
