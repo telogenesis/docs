@@ -7,6 +7,13 @@
     "dark": "#805AD5"
   },
   "favicon": "favicon.ico",
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.telogenesis.ai"
+    }
+  },
   "navigation": {
     "tabs": [
       {
