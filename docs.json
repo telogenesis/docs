@@ -28,6 +28,10 @@
             "pages": ["web-chat", "sms", "email"]
           },
           {
+            "group": "Documents",
+            "pages": ["google-docs"]
+          },
+          {
             "group": "Calendars",
             "pages": ["google-calendar"]
           },
