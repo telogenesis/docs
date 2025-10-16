@@ -25,7 +25,7 @@
           },
           {
             "group": "Communication",
-            "pages": ["web-chat", "sms", "email"]
+            "pages": ["communication"]
           },
           {
             "group": "Documents",
