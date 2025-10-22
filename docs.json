@@ -1,5 +1,5 @@
 {
-  "name": "Telogenesis",
+  "name": "Kuren",
   "theme": "mint",
   "colors": {
     "primary": "#805AD5",
@@ -11,7 +11,7 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.telogenesis.ai"
+      "href": "https://app.kuren.ai"
     }
   },
   "navigation": {
