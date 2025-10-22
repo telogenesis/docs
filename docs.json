@@ -36,6 +36,10 @@
             "pages": ["google-calendar"]
           },
           {
+            "group": "Legal",
+            "pages": ["subprocessors"]
+          },
+          {
             "group": "Support",
             "pages": ["support"]
           }
