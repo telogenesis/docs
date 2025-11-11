@@ -6,7 +6,7 @@
     "light": "#805AD5",
     "dark": "#805AD5"
   },
-  "favicon": "favicon.ico",
+  "favicon": "favicon.svg",
   "navbar": {
     "primary": {
       "type": "button",
